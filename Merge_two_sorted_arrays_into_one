@@ -1,0 +1,7 @@
+
+function mergeArrays(arr1, arr2) {
+  arr1 = arr1.concat(arr2); 
+  const uniqueNumbers = [...new Set([...arr1, ...arr2])];
+  const sorted = [...uniqueNumbers].sort((a, b) => a - b);
+  return sorted;
+}

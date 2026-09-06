@@ -1,0 +1,10 @@
+
+function findNeedle(haystack) {
+  
+  for (const [index, value] of haystack.entries()){
+    if(value === "needle"){
+      return `found the ${value} at position ${index}`
+    }
+  
+  }
+}
