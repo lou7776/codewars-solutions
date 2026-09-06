@@ -1,0 +1,19 @@
+function expressionMatter(a, b, c) {
+ let multiply = a * b * c; 
+  
+  let addMulti =  a + b * c;
+  
+  let multiAdd = a * (b + c); 
+  
+   let addMultiParan = (a + b) * c; 
+  
+    let add =   a + b + c; 
+    
+    let multiThenAdd = a * b + c
+  
+  const largest = Math.max(multiply, addMulti, multiAdd, addMultiParan, multiThenAdd,
+                          add);
+  
+  
+  return largest; // highest achievable result
+}
