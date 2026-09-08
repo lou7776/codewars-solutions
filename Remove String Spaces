@@ -1,0 +1,9 @@
+function noSpace(x) {
+  let result = "";
+  for (let i of x) {
+    if (i !== " ") {
+      result += i;
+    }
+  }
+  return result;
+}
